@@ -1,0 +1,206 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: $font-family-serif;
+  text-align: center;
+  color: $text-color;
+}
+
+h1 {
+  margin: 3rem auto 0;
+  font-family: $font-family-cursive;
+  font-size: 5.5rem;
+}
+
+.button-contact,
+a,
+h2,
+h3 {
+  font-family: $font-family-sans-serif;
+}
+
+h1,
+h2 {
+  color: $turquoise;
+}
+
+.copyright,
+a,
+b,
+h3 {
+  color: $darker-turquoise;
+}
+
+h2 {
+  padding-bottom: 1rem;
+  font-size: 2.5rem;
+}
+
+hr {
+  border-style: dotted none none;
+  width: 5%;
+  border-color: $hr-grey;
+  border-width: 5px;
+  margin: 2em auto;
+}
+
+p {
+  line-height: 2;
+}
+
+a {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.footer-links a {
+  margin: 10px 20px;
+}
+
+a:hover.footer-link  {
+  color: $hoover-white;
+}
+
+.contents-footer {
+  font-size: 0.75rem;
+  padding: 0.5rem 0 0;
+}
+
+.top-container {
+  position: relative;
+  padding-top: 1px;
+}
+
+.button:hover,
+.light-blue-bg {
+  background-color: $light-blue;
+}
+
+.middle-container {
+  margin: 3rem 0;
+}
+
+.bottom-container {
+  padding: 20px 0;
+}
+
+.subtitle {
+  font-weight: normal;
+}
+
+
+/*Icons*/
+.left-icon {
+  float: left;
+  margin-right: 2rem;
+}
+
+.right-icon {
+  float: right;
+  margin-left: 2rem;
+}
+
+.icon {
+  max-height: 8rem;
+  width: auto;
+}
+
+.mg-b-5 {
+  margin-bottom: 5rem;
+}
+
+.right-skill-row {
+  text-align: right;
+}
+
+.left-skill-row {
+    text-align: left;
+}
+
+/*Resume unordered list*/
+.resume-section-row {
+  li {
+    margin: 1em auto;
+    line-height: 2;
+  }
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+}
+
+.resume-row{
+  margin: 3rem auto;
+  text-align: left;
+}
+
+/*Photo*/
+.photo-sara {
+  border-radius: 50%;
+  width: 20%;
+  @media (max-width: $minWidth) {
+    width: 30%;
+   }
+   @media (max-width: ($midWidth ) ) {
+     width: 25%;
+    }
+}
+
+.description {
+  width: 60%;
+  font-style: italic;
+  margin: 0 auto;
+  @media (max-width: $minWidth) {
+      width: 100%;
+      font-style: normal;
+      padding: 0 2rem;
+   }
+}
+
+.contents {
+  width: 60%;
+  margin: 2rem auto;
+  @media (max-width: $minWidth) {
+      width: 100%;
+      padding: 0 2rem;
+   }
+}
+
+/*Contact me Button*/
+.contact-button {
+  background: $turquoise;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 1rem;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.contact-button:hover {
+  border: 0;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+@media (max-width: $minWidth) {
+  .description, .right-skill-row, .left-skill-row {
+    text-align: justify;
+  }
+ }
+
+ .fab{
+   font-size: xx-large;
+ }
